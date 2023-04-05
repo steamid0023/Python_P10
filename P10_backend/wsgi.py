@@ -1,5 +1,5 @@
 """
-WSGI config for P_10_BACKEND project.
+WSGI config for P10_backend project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'P_10_BACKEND.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'P10_backend.settings')
 
 application = get_wsgi_application()
